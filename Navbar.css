@@ -1,0 +1,1400 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+#navbar {
+  top: 0;
+  z-index: 1;
+  position: fixed;
+  right: 0;
+  left: 0;
+  padding-bottom: 0%;
+  z-index: 1030;
+}
+.colfour2 {
+  margin: 0px 14% 3px 1px;
+}
+#navbar1 {
+  top: 0;
+  z-index: 1;
+  position: fixed;
+  right: 0;
+  left: 0;
+  padding-bottom: 0%;
+  z-index: 1030;
+  background-color: rgb(4, 27, 61) !important;
+}
+#navbar-nav {
+  top: 0;
+  z-index: 1;
+  position: fixed;
+  right: 0;
+  left: 0;
+  padding-bottom: 0%;
+  z-index: 1030;
+}
+#navbar1-nav {
+  top: 0;
+  z-index: 1;
+  position: fixed;
+  right: 0;
+  left: 0;
+  padding-bottom: 0%;
+  z-index: 1030;
+}
+.dropdown-menu a {
+  text-decoration: none;
+  color: #000000;
+}
+.dropdown-menu .col-sm-6:nth-child(1) a:hover .d-flex {
+  background-color: var(--bs-warning-bg-subtle);
+}
+.dropdown-menu .col-sm-6:nth-child(2) a:hover .d-flex {
+  background-color: var(--bs-danger-bg-subtle);
+}
+.dropdown-menu .col-sm-6:nth-child(3) a:hover .d-flex {
+  background-color: var(--bs-success-bg-subtle);
+}
+.dropdown-menu .col-sm-6:nth-child(4) a:hover .d-flex {
+  background-color: var(--bs-secondary-bg-subtle);
+}
+.dropdown-menu .col-sm-6:nth-child(5) a:hover .d-flex {
+  background-color: var(--bs-tertiary-bg);
+}
+.dropdown-menu .col-sm-6:nth-child(6) a:hover .d-flex {
+  background-color: var(--bs-info-bg-subtle);
+}
+.dropdown-menu a .d-flex {
+  transition: all 0.5s;
+}
+nav {
+  background-color: #f4f4f4;
+  padding: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: inherit;
+  font-size: larger;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 5rem;
+}
+
+nav ul li {
+  display: flex;
+  margin-right: 20px;
+}
+.nav-link {
+  color: #f4f4f4 !important;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px !important;
+  color: #000000;
+  padding: 3px;
+  transition: 0.5s;
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+nav ul li a:hover {
+  background-color: #000000;
+  border-radius: 10px;
+  height: 100%;
+  color: white;
+  text-decoration: none;
+}
+
+.navigation .logo {
+  margin: 0;
+  padding: 0;
+}
+/* .navbar-nav .nav-item .nav-link {
+  color: rgb(12, 12, 12);
+} */
+.navbar-nav .nav-item .nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+.navigation {
+  display: flex;
+}
+
+.dropdown-menu {
+  background-color: whitesmoke;
+}
+.couseonly {
+  display: none;
+}
+#logo {
+  width: 75px;
+  height: 70px;
+  margin-left: 164%;
+  margin-top: 0%;
+}
+
+#Resources a {
+  font-weight: normal;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+}
+
+#Resources a:hover {
+  background-color: #8efd88;
+  border-radius: 5px;
+}
+
+.drop-title {
+  color: #157347;
+  font-weight: 500;
+  font-size: 19px;
+}
+.Solution-content {
+  display: flex;
+  flex-direction: row;
+}
+.list-group {
+  margin-right: -15%;
+}
+
+.list-group a {
+  font-weight: normal;
+  font-size: 15px !important;
+  padding-left: 8px;
+  margin-bottom: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.mega-content .list-group a:hover {
+  background-color: #8efd88;
+  border-radius: 5px;
+}
+.mega-content .list-group a:hover {
+  background-color: #8efd88;
+  border-radius: 5px;
+}
+
+.cloud {
+  padding-top: 5px;
+  margin-top: 3px;
+  width: 40px;
+  height: 40px;
+}
+.logs {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+.brain {
+  width: 40px;
+  height: 40px;
+}
+
+.setting {
+  width: 30px;
+  height: 30px;
+}
+
+.tag {
+  width: 30px;
+  height: 30px;
+}
+.shield {
+  width: 30px;
+  height: 30px;
+  margin-top: 9%;
+}
+
+.person {
+  margin-top: 6px;
+  width: 40px;
+  height: 40px;
+}
+@media screen and(max-width:900px) {
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    /* margin-left: 9%; */
+    padding-bottom: 12%;
+    align-items: center;
+  }
+
+  .shield {
+    width: 30px;
+    height: 30px;
+  }
+  #navbar {
+    background-color: #041c3c !important;
+  }
+  .container .form {
+    margin-top: 30px;
+    padding: 5%;
+  }
+  .dropdown-menu li .dropdown-item {
+    color: gray;
+    font-size: 14px !important;
+
+    padding: 0.5em 1em;
+  }
+  #navbar {
+    top: 0;
+    z-index: 1;
+    /* position: fixed; */
+    right: 0;
+    left: 0;
+    padding-bottom: 0%;
+    z-index: 1030;
+  }
+  nav ul li {
+    display: block !important;
+    margin-right: 20px;
+  }
+  .nav ul li a:hover {
+    /* background-color: #0a0538; */
+    border-radius: 10px;
+    color: black;
+    height: 8% !important;
+    text-decoration: none;
+  }
+  .nav ul li {
+    display: block !important;
+    margin-right: 20px !important;
+  }
+  /* .Solution-box {
+    height: 1px;
+    width: 0px;
+    background-color: #fff;
+    margin-top: -120px;
+  }
+  .Solution-content {
+    margin-top: -50%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    position: absolute;
+    display: block;
+    margin-left: -14%;
+  } */
+  .drop-title {
+    font-size: 1.2rem; /* Adjust font size for readability */
+  }
+  .col-lg-3 {
+    width: 100%; /* Make columns full-width on smaller screens */
+    float: none; /* Clear the float for stacking */
+    margin-bottom: 20px; /* Add space between columns */
+  }
+}
+.dropdown-menu a {
+  text-decoration: none;
+  color: #000000;
+}
+.dropdown-menu a .d-flex {
+  transition: all 0.5s;
+}
+.dropdown-menu .col-sm-6:nth-child(1) a:hover .d-flex {
+  background-color: var(--bs-warning-bg-subtle);
+}
+.dropdown-menu .col-sm-6:nth-child(2) a:hover .d-flex {
+  background-color: var(--bs-danger-bg-subtle);
+}
+.dropdown-menu .col-sm-6:nth-child(3) a:hover .d-flex {
+  background-color: var(--bs-success-bg-subtle);
+}
+.dropdown-menu .col-sm-6:nth-child(4) a:hover .d-flex {
+  background-color: var(--bs-secondary-bg-subtle);
+}
+.dropdown-menu .col-sm-6:nth-child(5) a:hover .d-flex {
+  background-color: var(--bs-tertiary-bg);
+}
+.dropdown-menu .col-sm-6:nth-child(6) a:hover .d-flex {
+  background-color: var(--bs-info-bg-subtle);
+}
+@media only screen and (min-width: 992px) {
+  .dropdown-menu {
+    width: 55vw;
+  }
+  .courseonly {
+    display: block;
+  }
+  .courseonly1 {
+    display: none;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: flex;
+  }
+  .dropdown-menu.show {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: flex;
+  }
+  .dropdown-menu.show {
+    display: flex;
+  }
+  .courseonly {
+    display: block;
+  }
+  .courseonly1 {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  /* Adjust the breakpoint as needed */
+  #logo {
+    margin-left: 4%; /* Set margin-left to 4% for mobile view */
+  }
+}
+
+@media screen and (max-width: 4900px) {
+  .sec {
+    min-height: 20vh;
+    margin-top: 2rem;
+  }
+  .quo1 {
+    margin-left: 10% !important;
+  }
+  #navbar {
+    /* background-color: #598036 !important; */
+    background-color: #f7f7f0 !important;
+  }
+  .nav ul li a:hover {
+    background-color: #0a0538;
+    border-radius: 10px;
+    height: 10%;
+    color: white;
+    text-decoration: none;
+  }
+  .nav ul li {
+    display: block !important;
+    margin-right: 20px;
+  }
+  .conimg3 {
+    width: 44%;
+    margin-top: -3%;
+    height: 90%;
+    margin-left: 15%;
+  }
+  .conimg4 {
+    /* padding-right: 0%; */
+    /* padding-right: 0%; */
+    width: 56%;
+    margin-top: -8%;
+    height: 100%;
+  }
+  .conimg2 {
+    /* padding-right: 0%; */
+    /* padding-right: 0%; */
+    width: 17%;
+    margin-top: 0%;
+    height: 74%;
+    margin-left: 15%;
+  }
+  #skill {
+    margin-top: 2%;
+  }
+  /* skill section  */
+  .skill-img {
+    width: 40%;
+  }
+  .skilltxt {
+    font-size: 2em;
+  }
+  .skill-p {
+    font-size: 2.5em;
+    padding-top: 0.6em;
+  }
+  .skill-btn1 {
+    font-size: 1.8em;
+    width: 18%;
+    padding: 20px 10px 20px;
+    border-radius: 30px;
+  }
+
+  .skill-btn2 {
+    font-size: 1.8em;
+    width: 18%;
+    padding: 20px 10px 20px;
+    border-radius: 30px;
+  }
+
+  /* learn section */
+
+  .learn-img {
+    width: 35%;
+  }
+
+  .learntxt {
+    font-size: 2em;
+  }
+  .learnsec {
+    margin-top: 2%;
+  }
+  .learn-p {
+    font-size: 2.5em;
+    padding-top: 0.6em;
+    padding-bottom: 0.5em;
+  }
+  #learn-link {
+    font-size: 2em;
+  }
+  .gt {
+    font-size: 2.7rem;
+    padding-top: 7px;
+  }
+
+  /*Assess section */
+
+  .Assess-img {
+    width: 50%;
+  }
+  .Assesstxt {
+    font-size: 2em;
+  }
+  .Assess-p {
+    font-size: 2.5em;
+    padding-top: 0.6em;
+    padding-bottom: 0.5em;
+  }
+  #Assess-link {
+    font-size: 2em;
+    margin-top: 1em;
+  }
+
+  /** data section **/
+
+  .data-img {
+    width: 30%;
+    margin-top: 3em;
+  }
+
+  .datatxt {
+    font-size: 2em;
+  }
+  .data-p {
+    font-size: 2.5em;
+    padding-top: 0.6em;
+    padding-bottom: 0.5em;
+  }
+  #data-link {
+    font-size: 2em;
+  }
+  .datasec {
+    margin-top: 2.5%;
+  }
+  .saleimg1 {
+    padding-right: 5%;
+    width: 51%;
+    margin-top: -2%;
+    height: 91%;
+  }
+  .saleimg3 {
+    padding-right: 17%;
+    width: 64%;
+    height: 80%;
+    flex-shrink: 0;
+  }
+  .saleimg4 {
+    padding-right: 4%;
+    width: 63%;
+    height: 80%;
+    flex-shrink: 0;
+  }
+  .saleimg212 {
+    /* padding-right: 0%; */
+    /* padding-right: 0%; */
+    width: 56%;
+    margin-top: -3%;
+    height: 94%;
+  }
+}
+
+@media all and (max-width: 3849px) {
+  .sec {
+    min-height: 30vh;
+    margin-top: 1rem;
+  }
+  .quo1 {
+    margin-left: 15% !important;
+  }
+  .saleimg1 {
+    padding-right: 5%;
+    width: 51%;
+    margin-top: -2%;
+    height: 91%;
+  }
+  .saleimg3 {
+    padding-right: 17%;
+    width: 64%;
+    height: 80%;
+    flex-shrink: 0;
+  }
+  .saleimg4 {
+    padding-right: 4%;
+    width: 63%;
+    height: 80%;
+    flex-shrink: 0;
+  }
+  .saleimg212 {
+    /* padding-right: 0%; */
+    /* padding-right: 0%; */
+    width: 56%;
+    margin-top: -3%;
+    height: 94%;
+  }
+  .sales4 {
+    margin-top: -5%;
+  }
+  .conimg3 {
+    width: 44%;
+    margin-top: -3%;
+    height: 90%;
+    margin-left: 15%;
+  }
+  .conimg2 {
+    /* padding-right: 0%; */
+    /* padding-right: 0%; */
+    width: 26%;
+    margin-top: 0%;
+    height: 74%;
+    margin-left: 15%;
+  }
+  /** skill section **/
+  .skilltxt {
+    font-size: 1.7em;
+  }
+  .conimg4 {
+    /* padding-right: 0%; */
+    /* padding-right: 0%; */
+    width: 56%;
+    margin-top: -8%;
+    height: 100%;
+  }
+  .skill-p {
+    font-size: 2em;
+    padding-top: 0.6em;
+  }
+
+  .skill-img {
+    width: 60%;
+  }
+
+  .skill-btn1 {
+    width: 22%;
+    font-size: 1.5em;
+  }
+  .skill-btn2 {
+    width: 22%;
+    font-size: 1.5em;
+  }
+
+  /* learn section */
+
+  #learn {
+    margin-top: -0.5%;
+  }
+  .learntxt {
+    font-size: 1.7em;
+  }
+
+  .learn-img {
+    width: 45%;
+    margin-top: -10px;
+  }
+
+  .learn-p {
+    font-size: 2em;
+    padding-top: 0.6em;
+  }
+
+  #learn-link {
+    font-size: 1.7em;
+  }
+
+  .gt {
+    font-size: 2.2rem;
+    padding-top: 10px;
+  }
+
+  /* Assess section */
+  #Assess {
+    margin-top: -1.8%;
+  }
+  .Assesstxt {
+    font-size: 1.7em;
+  }
+  .Assess-p {
+    font-size: 2em;
+    padding-top: 0.6em;
+  }
+
+  .Assess-img {
+    width: 60%;
+  }
+
+  #Assess-link {
+    font-size: 1.7em;
+  }
+
+  /** Data section **/
+
+  #data {
+    margin-top: -3.5%;
+    margin-bottom: 1%;
+  }
+  .datatxt {
+    font-size: 1.7em;
+  }
+
+  .data-p {
+    font-size: 2em;
+    padding-top: 0.6em;
+  }
+
+  .data-img {
+    width: 48%;
+    margin-top: -0.5%;
+    border-radius: 20px;
+  }
+
+  #data-link {
+    font-size: 1.7em;
+  }
+  .datasec {
+    margin-top: 4%;
+  }
+}
+
+@media all and (max-width: 2349px) {
+  .sec {
+    min-height: 40vh;
+    margin-top: 0.8rem;
+  }
+
+  /** skill section */
+
+  #skill {
+    margin-top: -1.1%;
+  }
+
+  .skilltxt {
+    font-size: 1.5em;
+  }
+
+  .skill-p {
+    font-size: 1.5em;
+    padding-top: 0.6em;
+  }
+
+  .skill-btn1 {
+    font-size: 1.2em;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .skill-btn2 {
+    font-size: 1.2em;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .skill-img {
+    width: 65%;
+  }
+
+  /** learn section **/
+
+  #learn {
+    margin-top: -5%;
+  }
+  .learntxt {
+    font-size: 1.5em;
+  }
+
+  .learn-p {
+    font-size: 1.5em;
+    padding-top: 0.6em;
+  }
+
+  #learn-link {
+    font-size: larger;
+  }
+
+  .gt {
+    font-size: larger;
+  }
+
+  .learn-img {
+    width: 50%;
+  }
+
+  /** Assess section **/
+
+  #Assess {
+    margin-top: -5%;
+  }
+  .Assesstxt {
+    font-size: 1.5em;
+  }
+
+  .Assess-p {
+    font-size: 1.5em;
+    padding-top: 0.6em;
+  }
+
+  #Assess-link {
+    font-size: larger;
+  }
+
+  .Assess-img {
+    width: 65%;
+  }
+
+  /** Data section **/
+  #Data {
+    margin-top: -5%;
+  }
+  .datatxt {
+    font-size: 1.5em;
+  }
+
+  .data-p {
+    font-size: 1.5em;
+    padding-top: 0.6em;
+  }
+
+  #data-link {
+    font-size: larger;
+  }
+
+  .data-img {
+    width: 58%;
+  }
+  .quo1 {
+    margin-left: 19% !important;
+  }
+}
+
+@media all and (max-width: 2144px) {
+  .sec {
+    min-height: 50vh;
+  }
+  .quo1 {
+    margin-left: 19% !important;
+  }
+  .saleimg1 {
+    padding-right: 5%;
+    width: 69%;
+    margin-top: 1%;
+    height: 91%;
+  }
+  .saleimg3 {
+    padding-right: 17%;
+    width: 86%;
+    height: 80%;
+    flex-shrink: 0;
+  }
+  .saleimg3 {
+    padding-right: 17%;
+    width: 86%;
+    height: 80%;
+    flex-shrink: 0;
+  }
+  .saleimg212 {
+    /* padding-right: 0%; */
+    /* padding-right: 0%; */
+    width: 96%;
+    margin-top: -3%;
+    height: 94%;
+  }
+  .saleimg4 {
+    padding-right: 4%;
+    width: 98%;
+    height: 89%;
+    flex-shrink: 0;
+  }
+  /** skill section */
+  .conimg2 {
+    /* padding-right: 0%; */
+    /* padding-right: 0%; */
+    width: 27%;
+    margin-top: 0%;
+    height: 91%;
+    margin-left: 15%;
+  }
+  .conimg4 {
+    /* padding-right: 0%; */
+    /* padding-right: 0%; */
+    width: 80%;
+    margin-top: -2%;
+    height: 75%;
+  }
+  .conimg3 {
+    width: 61%;
+    margin-top: -3%;
+    height: 90%;
+    margin-left: 15%;
+  }
+  #skill {
+    margin-top: -2%;
+  }
+
+  .skilltxt {
+    font-size: 1.3em;
+  }
+
+  .skill-p {
+    font-size: 1.4em;
+    padding-top: 0.6em;
+  }
+
+  .skill-btn1 {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 17px;
+  }
+
+  .skill-btn2 {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 17px;
+  }
+
+  .skill-img {
+    width: 70%;
+  }
+
+  /** learn section **/
+
+  #learn {
+    margin-top: -8%;
+  }
+  .learntxt {
+    font-size: 1.3em;
+  }
+  .sales4 {
+    margin-top: 0%;
+  }
+  .learn-p {
+    font-size: 1.4em;
+    padding-top: 0.6em;
+  }
+
+  #learn-link {
+    font-size: 25px;
+  }
+
+  .gt {
+    font-size: 25px;
+  }
+
+  .learn-img {
+    width: 60%;
+  }
+
+  /** Assess section **/
+
+  #Assess {
+    margin-top: -8%;
+  }
+  .Assesstxt {
+    font-size: 1.3em;
+  }
+
+  .Assess-p {
+    font-size: 1.4em;
+    padding-top: 0.6em;
+  }
+
+  #Assess-link {
+    font-size: 25px;
+  }
+
+  .Assess-img {
+    width: 70%;
+  }
+
+  /** Data section **/
+  #data {
+    margin-top: -8%;
+  }
+  .datatxt {
+    font-size: 1.3em;
+  }
+
+  .data-p {
+    font-size: 1.4em;
+    padding-top: 0.6em;
+  }
+
+  #data-link {
+    font-size: 25px;
+  }
+
+  .data-img {
+    width: 65%;
+  }
+}
+
+@media all and (max-width: 1991px) {
+  .sec {
+    min-height: 65vh;
+  }
+  .quo1 {
+    margin-left: 22% !important;
+  }
+  .saleimg4 {
+    padding-right: 4%;
+    width: 79%;
+    height: 100%;
+    flex-shrink: 0;
+  }
+  .saleimg1 {
+    padding-right: 5%;
+    width: 79%;
+    margin-top: 1%;
+    height: 91%;
+  }
+  .conimg4 {
+    /* padding-right: 0%; */
+    /* padding-right: 0%; */
+    width: 74%;
+    margin-top: -2%;
+    height: 100%;
+  }
+  .conimg3 {
+    width: 79%;
+    margin-top: -5%;
+    height: 80%;
+    margin-left: 15%;
+  }
+  .conimg2 {
+    /* padding-right: 0%; */
+    /* padding-right: 0%; */
+    width: 36%;
+    margin-top: 0%;
+    height: 84%;
+    margin-left: 15%;
+  }
+  /** skill section */
+
+  #skill {
+    margin-top: -6%;
+  }
+
+  .skilltxt {
+    font-size: 1.2em;
+  }
+
+  .skill-p {
+    font-size: 1.4em;
+    padding-top: 0.6em;
+  }
+
+  .skill-btn1 {
+    width: 25%;
+    padding-left: 1px;
+    padding-right: px;
+    font-size: 17px;
+  }
+
+  .skill-btn2 {
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 17px;
+  }
+
+  .skill-img {
+    width: 75%;
+  }
+
+  /** learn section **/
+
+  #learn {
+    margin-top: -14%;
+  }
+  .learntxt {
+    font-size: 1.2em;
+  }
+
+  .learn-p {
+    font-size: 1.4em;
+    padding-top: 0.6em;
+  }
+
+  #learn-link {
+    font-size: 22px;
+  }
+
+  .gt {
+    font-size: 23px;
+  }
+
+  .learn-img {
+    width: 65%;
+  }
+
+  /** Assess section **/
+
+  #Assess {
+    margin-top: -10%;
+  }
+  .Assesstxt {
+    font-size: 1.2em;
+  }
+
+  .Assess-p {
+    font-size: 1.3em;
+    padding-top: 0.6em;
+  }
+
+  #Assess-link {
+    font-size: 22px;
+  }
+
+  .Assess-img {
+    width: 77%;
+  }
+
+  /** Data section **/
+  #data {
+    margin-top: -15%;
+  }
+  .datatxt {
+    font-size: 1.2em;
+  }
+
+  .data-p {
+    font-size: 1.3em;
+    padding-top: 0.6em;
+  }
+
+  #data-link {
+    font-size: 23px;
+  }
+
+  .data-img {
+    width: 65%;
+  }
+  .sales4 {
+    padding-top: 5%;
+  }
+}
+
+@media all and (max-width: 1715px) {
+  .sec {
+    min-height: 90vh;
+  }
+  .quo1 {
+    margin-left: 25% !important;
+  }
+  .saleimg212 {
+    /* padding-right: 0%; */
+    /* padding-right: 0%; */
+    width: 100%;
+    margin-top: -4%;
+    height: 94%;
+  }
+
+  .conimg3 {
+    width: 82%;
+    margin-top: -7%;
+    height: 90%;
+    margin-left: 15%;
+  }
+  .corp3-sub {
+    display: flex;
+    margin-top: 3%;
+  }
+  .sales4 {
+    margin-top: 0%;
+  }
+  /** skill section */
+  #skill {
+    min-height: 100vh;
+    margin-top: -10%;
+  }
+
+  .skilltxt {
+    font-size: 1.5em;
+  }
+
+  .skill-p {
+    font-size: 1.5em;
+    padding-top: 0.6em;
+  }
+
+  .skill-btn1 {
+    padding-left: 4px;
+    padding-right: 5px;
+    font-size: 15px;
+  }
+
+  .skill-btn2 {
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 15px;
+  }
+
+  .skill-img {
+    width: 90%;
+  }
+
+  /** learn section **/
+
+  #learn {
+    margin-top: -22%;
+  }
+  .learntxt {
+    font-size: 1.5em;
+  }
+
+  .learn-p {
+    font-size: 1.5em;
+    padding-top: 0.6em;
+  }
+
+  #learn-link {
+    font-size: 21px;
+  }
+
+  .learnsec {
+    margin-top: 5%;
+  }
+
+  .gt {
+    font-size: 23px;
+  }
+
+  .learn-img {
+    width: 80%;
+  }
+
+  /** Assess section **/
+
+  #Assess {
+    margin-top: -18%;
+  }
+  .Assesstxt {
+    font-size: 1.5em;
+  }
+
+  .Assess-p {
+    font-size: 1.5em;
+    padding-top: 0.6em;
+  }
+
+  #Assess-link {
+    font-size: 21px;
+  }
+
+  .Assess-img {
+    width: 100%;
+  }
+
+  /** Data section **/
+  #data {
+    margin-top: -18%;
+  }
+  .datatxt {
+    font-size: 1.5em;
+  }
+
+  .data-p {
+    font-size: 1.5em;
+    padding-top: 0.6em;
+  }
+
+  #data-link {
+    font-size: 21px;
+  }
+  .saleimg1 {
+    padding-right: 10%;
+    width: 92%;
+    margin-top: 1%;
+    height: 91%;
+  }
+  .saleimg3 {
+    padding-right: 17%;
+    width: 95%;
+    height: 80%;
+    flex-shrink: 0;
+  }
+  .saleimg4 {
+    padding-right: 4%;
+    width: 98%;
+    height: 80%;
+    flex-shrink: 0;
+  }
+  .data-img {
+    width: 75%;
+    border-radius: 25px;
+  }
+  .datasec {
+    margin-top: 3%;
+  }
+}
+
+@media all and (max-width: 1588px) {
+  .sec {
+    min-height: 100vh;
+  }
+  .quo1 {
+    margin-left: 27% !important;
+  }
+  .conimg2 {
+    /* padding-right: 0%; */
+    /* padding-right: 0%; */
+    width: 42%;
+    margin-top: 0%;
+    height: 92%;
+    margin-left: 15%;
+  }
+  .conimg3 {
+    width: 82%;
+    margin-top: -2%;
+    height: 90%;
+    margin-left: 15%;
+  }
+  #skill {
+    min-height: 100vh;
+
+    margin-top: 12%;
+  }
+  #Assess {
+    min-height: 100vh;
+  }
+
+  #learn {
+    min-height: 100vh;
+  }
+
+  #data {
+    min-height: 85vh;
+  }
+  .skilltxt {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  .skill-p {
+    font-size: 1.4em;
+    padding-top: 0.6em;
+  }
+  .skill-btn1 {
+    padding: 12px 8px 12px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 27%;
+  }
+
+  .skill-btn2 {
+    padding: 12px 8px 12px;
+    font-weight: bolder;
+    border-radius: 20px;
+    margin-left: 1.5rem;
+    width: 27%;
+  }
+
+  .skill-img {
+    margin-top: -3%;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+  }
+
+  /*learn by doing section*/
+  #learn {
+    margin-top: -23%;
+  }
+
+  .learn-img {
+    width: 80%;
+    border-radius: 25px;
+    margin-top: 4%;
+  }
+
+  #learn-link {
+    font-size: 20px;
+  }
+
+  .learn-p {
+    font-size: 1.4em;
+    padding-top: 0.6em;
+  }
+
+  .learntxt {
+    margin-bottom: 3rem;
+    margin-left: 0.8rem;
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  .gt {
+    font-size: 21px;
+    padding-top: 2px;
+  }
+
+  /*Assess secction**/
+
+  #Assess {
+    margin-top: -22%;
+  }
+
+  #Assess-link {
+    font-size: 20px;
+  }
+
+  .Assess-p {
+    font-size: 1.4em;
+    padding-top: 0.6em;
+  }
+  .Assesstxt {
+    margin-top: 3rem;
+    font-weight: bolder;
+    font-size: 1.4em;
+  }
+
+  .Assess-img {
+    width: 100%;
+    border-radius: 35px;
+    margin-top: 2%;
+    margin-top: -10%;
+  }
+
+  /*Data section*/
+  #data {
+    margin-top: -25%;
+  }
+
+  .data-img {
+    width: 85%;
+    border-radius: 20px;
+    margin-top: 5%;
+  }
+  .data-p {
+    font-size: 1.4em;
+    padding-top: 0.4em;
+  }
+
+  .datatxt {
+    margin-top: 3rem;
+    font-size: 1.4em;
+    font-weight: bolder;
+  }
+
+  #data-link {
+    font-size: 20px;
+  }
+  .datasec {
+    margin-top: 6%;
+  }
+  .sales4 {
+    padding-top: 5%;
+  }
+}
